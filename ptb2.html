@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải phương trình bậc 2</title>
+    <link rel="stylesheet" href="ptb2.css">
+    <script src="ptb2.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="pas">
+                Nhập hệ số A:
+            </td>
+            <td>
+                <input type="number", onchange="mydoia()",  id="a">    
+            </td>
+        </tr>
+        <tr>
+            <td class="pas">
+                Nhập hệ số B:
+            </td>
+            <td>
+                <input type="number", onchange="mydoib()",  id="b">
+            </td>
+        </tr>
+        <tr>
+            <td class="pas"> 
+                Nhập hệ số C:
+            </td>
+            <td>
+                <input type="number", onchange="mydoic()",  id="c">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2", class="col">
+                <span id="A">a</span>x<sup>2</sup> + <span id="B">b</span>x + <span id="C">c</span> = 0
+            </td>
+        </tr>
+        <tr> 
+            <td colspan="2", class="col">
+                <button onclick="myFunction()", id="submit"> Giải Phương Trình </button> <br>
+            </td>
+        </tr>
+        <tr>
+            <td class="pas">
+                Kết quả:
+            </td>
+            <td>
+                <p id="hienthi"></p>
+            </td>
+        </tr>
+    </table>
+  
+      
+        
+    
+</body>
+</html>

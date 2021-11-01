@@ -1,0 +1,35 @@
+body
+{
+    width:800px;
+    height: 800px;
+}
+div   
+{
+    padding: 8px;
+}
+#btn
+{
+    margin: 5px 100px  ;
+}
+table 
+{
+    border-style: solid;
+    width: 50%;
+    border-radius: 20px;
+    background-color: bisque;
+
+}
+.pas
+{
+    text-align: right;
+}
+.col
+{
+    text-align: center;
+}
+#submit 
+{
+    border-radius: 20px;
+    background-color: gold;
+}
+
